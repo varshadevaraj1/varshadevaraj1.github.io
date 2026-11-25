@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Varsha Devaraj | Data & BI Analyst</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-hover: #0284c7;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background: var(--bg); color: var(--text); line-height: 1.6; padding: 2rem 1rem; }
+    .container { max-width: 960px; margin: 0 auto; }
+    header { border-bottom: 1px solid var(--border); padding-bottom: 2rem; margin-bottom: 2.5rem; }
+    h1 { font-size: 2.5rem; letter-spacing: -0.5px; }
+    .subtitle { color: var(--accent); font-size: 1.15rem; font-weight: 500; margin: 0.4rem 0 1rem; }
+    .bio { color: var(--muted); max-width: 750px; margin-bottom: 1.5rem; }
+    .links a { display: inline-block; background: var(--card); color: var(--text); text-decoration: none; padding: 0.55rem 1rem; border-radius: 6px; border: 1px solid var(--border); margin-right: 0.6rem; margin-bottom: 0.5rem; font-size: 0.9rem; transition: 0.2s; }
+    .links a.primary { background: var(--accent); color: #0f172a; font-weight: 600; border-color: var(--accent); }
+    .links a:hover { border-color: var(--accent); }
+    .metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 3rem; }
+    .metric-card { background: var(--card); padding: 1.25rem; border-radius: 8px; border: 1px solid var(--border); }
+    .metric-val { font-size: 1.75rem; font-weight: 700; color: var(--accent); }
+    .metric-label { font-size: 0.85rem; color: var(--muted); }
+    h2 { font-size: 1.5rem; margin-bottom: 1.25rem; border-left: 4px solid var(--accent); padding-left: 0.75rem; }
+    .project { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .project-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem; }
+    .project h3 { font-size: 1.2rem; }
+    .tag { background: #0f172a; color: var(--accent); font-size: 0.75rem; padding: 0.25rem 0.6rem; border-radius: 4px; border: 1px solid var(--border); }
+    .project p { color: var(--muted); font-size: 0.95rem; margin-bottom: 0.75rem; }
+    .project ul { margin-left: 1.2rem; color: var(--text); font-size: 0.95rem; }
+    .project li { margin-bottom: 0.35rem; }
+    /* Interactive Demo Box */
+    .demo-box { background: #0f172a; border: 1px dashed var(--accent); padding: 1rem; border-radius: 8px; margin-top: 1rem; }
+    .demo-controls { display: flex; gap: 0.75rem; flex-wrap: wrap; margin: 0.75rem 0; }
+    select, button { padding: 0.5rem; border-radius: 5px; border: 1px solid var(--border); background: var(--card); color: var(--text); font-size: 0.9rem; }
+    button { background: var(--accent); color: #0f172a; font-weight: 600; cursor: pointer; }
+    .output-box { background: var(--card); padding: 0.75rem; border-radius: 5px; font-family: monospace; font-size: 0.85rem; color: #a7f3d0; }
+    .skills-wrap { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 2.5rem; }
+    .skill-pill { background: var(--card); border: 1px solid var(--border); padding: 0.4rem 0.85rem; border-radius: 20px; font-size: 0.85rem; color: var(--muted); }
+    footer { text-align: center; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); padding-top: 1.5rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Varsha Devaraj</h1>
+      <div class="subtitle">Data Analyst &bull; Business Intelligence &bull; Product &amp; Operations Analytics</div>
+      <p class="bio">MSc IT graduate with 3+ years of enterprise analytics experience at Amazon. Based in Dubai, UAE. I build automated SQL/Python pipelines, real-time executive scorecards, and localized workflow tools that eliminate manual reporting bottlenecks.</p>
+      <div class="links">
+        <a href="mailto:varshadevaraj1@gmail.com" class="primary">Email Me</a>
+        <a href="https://linkedin.com/in/varsha001" target="_blank">LinkedIn</a>
+        <a href="VarshaDevaraj_resume_C_V.pdf" target="_blank">Download Resume (PDF)</a>
+      </div>
+    </header>
+
+    <section class="metrics-grid">
+      <div class="metric-card">
+        <div class="metric-val">6+ hrs/wk</div>
+        <div class="metric-label">Manual spreadsheet work eliminated via automated WBR scorecards</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-val">150+</div>
+        <div class="metric-label">Senior stakeholders &amp; 125+ managers supported across 3,000+ staff</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-val">1–2 mins</div>
+        <div class="metric-label">Saved per customer interaction via localized EU5 &amp; Japan workflow logic</div>
+      </div>
+    </section>
+
+    <h2>Selected Case Studies</h2>
+
+    <div class="project">
+      <div class="project-header">
+        <h3>Automated Executive WBR Scorecard &amp; Reporting Suite</h3>
+        <span class="tag">SQL &bull; Python &bull; AWS QuickSight &bull; Power Query</span>
+      </div>
+      <p>Replaced a legacy 24-hour manual processing cycle with an automated extraction and validation architecture refreshed every Monday morning.</p>
+      <ul>
+        <li>Consolidated fragmented transactional datasets into a single source of truth for leadership reviews.</li>
+        <li>Cut manual reporting effort by 3 hours weekly while eliminating 6+ hours of recurring spreadsheet work.</li>
+        <li>Implemented real-time variance and gap-analysis drill-downs across operations units.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <h3>Multi-Language SLA &amp; Annotation Workflow Tool (Interactive Demo)</h3>
+        <span class="tag">JavaScript &bull; HTML/CSS &bull; Backend Data Modeling</span>
+      </div>
+      <p>Redesigned dropdown logic and backend definitions for Customer Service Associates across EU5 and Japan, adding Japanese and Portuguese support.</p>
+      <div class="demo-box">
+        <strong>Try a simplified version of the localized SLA annotation generator:</strong>
+        <div class="demo-controls">
+          <select id="langSelect" onchange="updateNote()">
+            <option value="en">Language: English</option>
+            <option value="ja">Language: Japanese (日本語)</option>
+            <option value="pt">Language: Portuguese (Português)</option>
+          </select>
+          <select id="issueSelect" onchange="updateNote()">
+            <option value="sla">Issue: SLA Carrier Delay</option>
+            <option value="fraud">Issue: Anomalous Route Flag</option>
+          </select>
+          <button onclick="copyNote()">Copy Annotation</button>
+        </div>
+        <div class="output-box" id="noteOutput"></div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <h3>Supply Chain SLA Protection &amp; Carrier Fraud Analytics</h3>
+        <span class="tag">SQL &bull; Python (Pandas) &bull; Root-Cause Analysis</span>
+      </div>
+      <p>Built lifecycle classification and anomaly-filtering models across high-volume logistics data to protect strict organizational SLAs.</p>
+      <ul>
+        <li>Detected reporting bottlenecks in real-time transportation capacity data and executed corrective actions.</li>
+        <li>Investigated fraud-related driver/carrier patterns, supporting removal actions that cut unnecessary trips and improved on-time delivery.</li>
+      </ul>
+    </div>
+
+    <h2>Skills &amp; Certifications</h2>
+    <div class="skills-wrap">
+      <span class="skill-pill">Advanced SQL &amp; ETL</span>
+      <span class="skill-pill">Python (Pandas, NumPy)</span>
+      <span class="skill-pill">AWS QuickSight</span>
+      <span class="skill-pill">Excel (Power Query, DAX, Macros)</span>
+      <span class="skill-pill">Power Automate</span>
+      <span class="skill-pill">React.js &amp; JavaScript</span>
+      <span class="skill-pill">Six Sigma Yellow Belt</span>
+      <span class="skill-pill">Aha! Product Management Certified</span>
+    </div>
+
+    <footer>
+      Varsha Devaraj &bull; Dubai, UAE &bull; varshadevaraj1@gmail.com
+    </footer>
+  </div>
+
+  <script>
+    const templates = {
+      en: {
+        sla: "[SLA-REVIEW] Carrier delay verified. Escalated to logistics queue; ETA updated per policy.",
+        fraud: "[ANOMALY-FLAG] Irregular route deviation detected. Held for compliance audit."
+      },
+      ja: {
+        sla: "[SLA確認] 配送業者の遅延を確認しました。物流チームへエスカレーション済みです。",
+        fraud: "[異常検知] 不規則なルート逸脱を検出しました。コンプライアンス監査のため保留中。"
+      },
+      pt: {
+        sla: "[REVISÃO-SLA] Atraso da transportadora verificado. Escalado para a equipe de logística.",
+        fraud: "[ALERTA-ANOMALIA] Desvio de rota irregular detectado. Retido para auditoria."
+      }
+    };
+    function updateNote() {
+      const lang = document.getElementById("langSelect").value;
+      const issue = document.getElementById("issueSelect").value;
+      document.getElementById("noteOutput").innerText = templates[lang][issue];
+    }
+    function copyNote() {
+      navigator.clipboard.writeText(document.getElementById("noteOutput").innerText);
+      alert("Annotation copied to clipboard!");
+    }
+    updateNote();
+  </script>
+</body>
+</html>
